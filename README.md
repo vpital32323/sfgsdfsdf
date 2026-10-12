@@ -1,11 +1,17 @@
-# iwoho client
+# Iwoho Launcher — Iwoho Visuals
 
-Клиент для Minecraft 1.21.4 (Fabric).
+## Запуск
+1. Установи Node.js 18+ и Java 17+.
+2. В папке проекта: `npm install` затем `npm start`.
+3. Сборка .exe: `npm run build` (результат в `dist/`).
 
-**Меню:** Right Shift. ЛКМ по модулю — вкл/выкл, ПКМ — настройки.
-Цвет GUI меняется в панели Theme color справа внизу.
+## Свой логотип
+Замени `assets/logo.svg` на свой файл (или поменяй путь `../assets/logo.svg` в `src/splash.html` и `src/index.html`).
+Для иконки .exe положи `assets/icon.ico` (256x256).
 
-## Установка
-1. Установи Fabric Loader для 1.21.4 (fabricmc.net) и Fabric API 0.119.2+1.21.4.
-2. Положи `iwoho-client-1.0.0.jar` в папку `.minecraft/mods`.
-3. Запусти профиль Fabric.
+## Обновить репозиторий на GitHub
+Через сайт: открой репозиторий → Add file → Upload files → перетащи содержимое папки (с заменой) → Commit changes.
+Через терминал:
+    git add .
+    git commit -m "Iwoho Launcher: новый дизайн"
+    git push
